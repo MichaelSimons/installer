@@ -29,7 +29,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependency from https://github.com/dotnet/templating -->
-    <MicrosoftDotNetCommonTemplatesPackageVersion>5.0.0-preview.1.20224.2</MicrosoftDotNetCommonTemplatesPackageVersion>
+    <MicrosoftDotNetCommonTemplatesPackageVersion>5.0.0-preview.1.20119.2</MicrosoftDotNetCommonTemplatesPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependency from https://github.com/dotnet/test-templates -->
@@ -104,7 +104,7 @@
     <MicrosoftDotNetWpfProjectTemplates31PackageVersion>3.1.2-servicing.20066.4</MicrosoftDotNetWpfProjectTemplates31PackageVersion>
     <NUnit3Templates31PackageVersion>1.7.1</NUnit3Templates31PackageVersion>
     <MicrosoftDotNetCommonItemTemplates31PackageVersion>3.1.2</MicrosoftDotNetCommonItemTemplates31PackageVersion>
-    <MicrosoftDotNetCommonProjectTemplates31PackageVersion>3.1.0-preview1.19475.1</MicrosoftDotNetCommonProjectTemplates31PackageVersion>
+    <MicrosoftDotNetCommonProjectTemplates31PackageVersion>$(MicrosoftDotNetCommonItemTemplates31PackageVersion)</MicrosoftDotNetCommonProjectTemplates31PackageVersion>
     <MicrosoftDotNetTestProjectTemplates31PackageVersion>1.0.2-beta4.19570.1</MicrosoftDotNetTestProjectTemplates31PackageVersion>
     <AspNetCorePackageVersionFor31Templates>3.1.2</AspNetCorePackageVersionFor31Templates>
     <!-- 3.0 Template versions -->
