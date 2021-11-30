@@ -192,6 +192,17 @@
       <Sha>7b9791daa3a3477eb22ec805946c9fff8b42d8ca</Sha>
       <SourceBuildTarball RepoName="symreader" ManagedOnly="true" />
     </Dependency>
+
+    <Dependency Name="dotnet-format" Version="7.0.257701">
+      <Uri>https://github.com/dotnet/format</Uri>
+      <Sha>d43e7e57f765a063a135884b1ddd19dc79df1cdb</Sha>
+      <SourceBuildTarball RepoName="format" ManagedOnly="true" />
+    </Dependency>
+    <Dependency Name="Microsoft.SourceBuild.Intermediate.command-line-api" Version="0.1.257901">
+      <Uri>https://github.com/dotnet/command-line-api</Uri>
+      <Sha>de978c68b470123a2df3891f98ee9974c323c41f</Sha>
+      <SourceBuild RepoName="command-line-api" ManagedOnly="true" />
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
     <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="7.0.0-beta.21576.4">
