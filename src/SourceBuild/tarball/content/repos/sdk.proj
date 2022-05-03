@@ -30,13 +30,17 @@
   <ItemGroup>
     <RepositoryReference Include="arcade" />
     <RepositoryReference Include="xliff-tasks" />
-    <RepositoryReference Include="runtime" />
+    <!-- TODO: Renable once runtime is building in tarball -->
+    <!-- <RepositoryReference Include="runtime" /> -->
     <RepositoryReference Include="msbuild" />
     <RepositoryReference Include="source-build-externals" />
-    <RepositoryReference Include="nuget-client" />
-    <RepositoryReference Include="roslyn-analyzers" />
+    <!-- TODO: Renable once nuget-client is building in tarball -->
+    <!-- <RepositoryReference Include="nuget-client" /> -->
+    <!-- TODO: Renable once roslyn-analyzers is building in tarball -->
+    <!-- <RepositoryReference Include="roslyn-analyzers" /> -->
     <RepositoryReference Include="vstest" />
-    <RepositoryReference Include="fsharp" />
+    <!-- TODO: Renable once fsharp is building in tarball -->
+    <!-- <RepositoryReference Include="fsharp" /> -->
     <RepositoryReference Include="format" />
     <RepositoryReference Include="deployment-tools" />
     <RepositoryReference Include="razor-compiler" />
