@@ -77,21 +77,21 @@
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
       <Sha>52c11c30efe97e271530e92cfbe951ee73862c01</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.2.1" Version="1.0.2-beta4.22225.1">
+    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.2.1" Version="1.0.2-beta4.22261.1">
       <Uri>https://github.com/dotnet/test-templates</Uri>
-      <Sha>34906a5405fc50219c8001d83a7d2def78e0ebec</Sha>
+      <Sha>b3ea6fe79f36182991222dbf5bb18ee13800a657</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.5.0" Version="1.0.2-beta4.22225.1">
+    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.5.0" Version="1.0.2-beta4.22261.1">
       <Uri>https://github.com/dotnet/test-templates</Uri>
-      <Sha>34906a5405fc50219c8001d83a7d2def78e0ebec</Sha>
+      <Sha>b3ea6fe79f36182991222dbf5bb18ee13800a657</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.6.0" Version="1.0.2-beta4.22225.1">
+    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.6.0" Version="1.0.2-beta4.22261.1">
       <Uri>https://github.com/dotnet/test-templates</Uri>
-      <Sha>34906a5405fc50219c8001d83a7d2def78e0ebec</Sha>
+      <Sha>b3ea6fe79f36182991222dbf5bb18ee13800a657</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.7.0" Version="1.0.2-beta4.22225.1">
+    <Dependency Name="Microsoft.DotNet.Test.ProjectTemplates.7.0" Version="1.0.2-beta4.22261.1">
       <Uri>https://github.com/dotnet/test-templates</Uri>
-      <Sha>34906a5405fc50219c8001d83a7d2def78e0ebec</Sha>
+      <Sha>b3ea6fe79f36182991222dbf5bb18ee13800a657</Sha>
       <SourceBuild RepoName="test-templates" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="7.0.100-preview.5.22259.5" CoherentParentDependency="Microsoft.NET.Sdk">
@@ -192,33 +192,33 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="7.0.0-beta.22255.2">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="7.0.0-beta.22260.2">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>ba1c3aff4be864c493031d989259ef92aaa23fc3</Sha>
+      <Sha>6baad99219dda29b3c8efd7d627393cda4b38372</Sha>
       <SourceBuild RepoName="arcade" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.CMake.Sdk" Version="7.0.0-beta.22255.2">
+    <Dependency Name="Microsoft.DotNet.CMake.Sdk" Version="7.0.0-beta.22260.2">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>ba1c3aff4be864c493031d989259ef92aaa23fc3</Sha>
+      <Sha>6baad99219dda29b3c8efd7d627393cda4b38372</Sha>
       <SourceBuild RepoName="arcade" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Build.Tasks.Installers" Version="7.0.0-beta.22255.2">
+    <Dependency Name="Microsoft.DotNet.Build.Tasks.Installers" Version="7.0.0-beta.22260.2">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>ba1c3aff4be864c493031d989259ef92aaa23fc3</Sha>
+      <Sha>6baad99219dda29b3c8efd7d627393cda4b38372</Sha>
     </Dependency>
     <Dependency Name="Microsoft.SourceBuild.Intermediate.source-build-reference-packages" Version="7.0.0-alpha.1.22259.4">
       <Uri>https://github.com/MichaelSimons/source-build-reference-packages</Uri>
       <Sha>b1951fa8add05e7aa75fffd82f91335d50cb5fd6</Sha>
       <SourceBuildTarball RepoName="source-build-reference-packages" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="Microsoft.SourceLink.GitHub" Version="1.2.0-beta-22251-01" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
+    <Dependency Name="Microsoft.SourceLink.GitHub" Version="1.2.0-beta-22259-01" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
       <Uri>https://github.com/dotnet/sourcelink</Uri>
-      <Sha>b74d568abf257cbac3d9a595e7223b25d8d6b90d</Sha>
+      <Sha>7e0f22b377684f55bf2bca45eba46bdcb08edb64</Sha>
       <SourceBuild RepoName="sourcelink" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="1.0.0-beta.22223.1" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
+    <Dependency Name="Microsoft.DotNet.XliffTasks" Version="1.0.0-beta.22257.1" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
       <Uri>https://github.com/dotnet/xliff-tasks</Uri>
-      <Sha>eefdc9f02f39fb3262c4c14271e5e600ebf2bdcb</Sha>
+      <Sha>dd1d99d35636a5a6f09dd3dad88e338bbde2cc8a</Sha>
       <SourceBuild RepoName="xliff-tasks" ManagedOnly="true" />
     </Dependency>
   </ToolsetDependencies>
