@@ -44,6 +44,7 @@ namespace Microsoft.DotNet.Build.Tasks
             XElement exisitingSourceBuildElement = packageSourcesElement.Descendants().FirstOrDefault(e => e.Name == "add" && e.Attribute(XName.Get("key")).Value == SourceName);
             XElement lastClearElement = packageSourcesElement.Descendants().LastOrDefault(e => e.Name == "clear");
             XElement packageSourceMappingElement = d.Root.Descendants().FirstOrDefault(e => e.Name == "packageSourceMapping");
+            XElement packageSourceMappingClearElement = packageSourceMappingElement.Descendants().FirstOrDefault(e => e.Name == "clear");
 
             if (exisitingSourceBuildElement != null)
             {
@@ -81,7 +82,15 @@ namespace Microsoft.DotNet.Build.Tasks
 
                     if (pkgSrc.HasElements)
                     {
-                        packageSourceMappingElement.Add(pkgSrc);
+                        if (packageSourceMappingClearElement != null)
+                        {
+                            packageSourceMappingClearElement.AddAfterSelf(pkgSrc);
+                        }
+                        else
+                        {
+                            packageSourceMappingElement.AddFirst(pkgSrc);
+                            packageSourceMappingElement.AddFirst(new XElement("clear"));
+                        }
                     }
                 }
                 catch (Exception e)

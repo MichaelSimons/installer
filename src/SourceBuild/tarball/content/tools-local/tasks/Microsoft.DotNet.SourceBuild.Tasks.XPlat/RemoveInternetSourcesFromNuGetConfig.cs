@@ -76,8 +76,11 @@ namespace Microsoft.DotNet.Build.Tasks
             // Remove disabledPackageSources element so if any internal packages remain, they are used in source-build
             disabledPackageSourcesElement?.ReplaceNodes(new XElement("clear"));
 
-            // Do the same for packageSourceMappings, these are re-added in AddSourceToNuGetConfig
-            packageSourceMappingElement?.ReplaceNodes(new XElement("clear"));
+            if (!BuildWithOnlineSources)
+            {
+                // When building offline remove all packageSourceMappings, the source-build replacements get added in AddSourceToNuGetConfig
+                packageSourceMappingElement?.ReplaceNodes(new XElement("clear"));
+            }
 
             using (var w = XmlWriter.Create(NuGetConfigFile, new XmlWriterSettings { NewLineChars = newLineChars, Indent = true }))
             {
