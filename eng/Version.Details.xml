@@ -211,7 +211,7 @@
     </Dependency>
     <Dependency Name="Microsoft.SourceBuild.Intermediate.source-build-reference-packages" Version="7.0.0-alpha.1.22377.2">
       <Uri>https://github.com/MichaelSimons/source-build-reference-packages</Uri>
-      <Sha>0de8df10cb83cb6b8d3cbf2ad1de1d1c12999524</Sha>
+      <Sha>a373370d59561f54527f5874cbdfb9fc78f60a5e</Sha>
       <SourceBuildTarball RepoName="source-build-reference-packages" ManagedOnly="true" />
     </Dependency>
     <Dependency Name="Microsoft.SourceLink.GitHub" Version="1.2.0-beta-22376-02" CoherentParentDependency="Microsoft.DotNet.Arcade.Sdk">
