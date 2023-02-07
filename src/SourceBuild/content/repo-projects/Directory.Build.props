@@ -85,6 +85,12 @@
          See https://github.com/dotnet/source-build/issues/541 -->
     <EnvironmentVariables Include="MSBUILDDISABLENODEREUSE=1" />
 
+    <!-- Turn off msbuild servers and shared compilation because they cause unexplained compiler errors 
+         while using the CleanWhileBuilding option.
+         See https://github.com/dotnet/source-build/issues/3233 -->
+    <EnvironmentVariables Include="DOTNET_CLI_USE_MSBUILD_SERVER=0" />
+    <EnvironmentVariables Include="UseSharedCompilation=false" />
+
     <!--
       Apply official build versioning to match Microsoft build. These are based on build date, so
       need to be parsed from Maestro++ auto-update and passed through.
